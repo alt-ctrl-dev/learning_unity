@@ -271,6 +271,10 @@ Prefab:
       propertyPath: m_Name
       value: PickUp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1039258408687302, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
+      propertyPath: m_TagString
+      value: Pick Up
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
   m_IsPrefabParent: 0
@@ -325,6 +329,10 @@ Prefab:
     - target: {fileID: 4480359601606464, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.50000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039258408687302, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
+      propertyPath: m_TagString
+      value: Pick Up
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
@@ -797,6 +805,10 @@ Prefab:
       propertyPath: m_Name
       value: PickUp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1039258408687302, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
+      propertyPath: m_TagString
+      value: Pick Up
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
   m_IsPrefabParent: 0
@@ -958,6 +970,10 @@ Prefab:
       propertyPath: m_Name
       value: PickUp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1039258408687302, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
+      propertyPath: m_TagString
+      value: Pick Up
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
   m_IsPrefabParent: 0
@@ -1016,6 +1032,10 @@ Prefab:
     - target: {fileID: 1039258408687302, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
       propertyPath: m_Name
       value: PickUp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039258408687302, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
+      propertyPath: m_TagString
+      value: Pick Up
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c7a28ee7c749488caeb7c3bb246bc43, type: 2}
