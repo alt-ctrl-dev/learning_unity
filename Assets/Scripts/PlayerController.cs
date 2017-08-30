@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
@@ -8,6 +9,8 @@ public class PlayerController : MonoBehaviour {
 	private Rigidbody rb;
 
 	private int count;
+
+	public Text countText;
 
 	void Start ()
 	{
@@ -23,6 +26,8 @@ public class PlayerController : MonoBehaviour {
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
 		rb.AddForce (movement * speed);
+
+		countText.text = "Count: " + count.ToString ();
 	}
 
 	void OnTriggerEnter(Collider other) 
