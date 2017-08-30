@@ -11,11 +11,13 @@ public class PlayerController : MonoBehaviour {
 	private int count;
 
 	public Text countText;
+	public Text winText;
 
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
 		count = 0;
+		winText.text = "";
 	}
 
 	void FixedUpdate ()
@@ -28,6 +30,8 @@ public class PlayerController : MonoBehaviour {
 		rb.AddForce (movement * speed);
 
 		countText.text = "Count: " + count.ToString ();
+		if(count>=4)
+			winText.text = "You win!";
 	}
 
 	void OnTriggerEnter(Collider other) 
